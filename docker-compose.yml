@@ -13,6 +13,5 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=my-new-knowledge
     volumes:
-#      - ./docker/storage/postgres_1:/var/lib/postgresql
       - ./docker/storage/postgres_1:/var/lib/postgresql/data
 #    networks:

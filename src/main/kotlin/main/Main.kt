@@ -4,8 +4,6 @@ class Main {
 }
 
 fun main() {
-    val o = ""
-    o
-    println()
-    println("ttt")
+    println("hello Hentai-chan!")
+    System.getenv().entries.forEach{(k, v) -> println("$k = $v") }
 }
